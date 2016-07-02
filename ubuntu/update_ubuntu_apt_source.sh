@@ -1,10 +1,11 @@
 #!/bin/bash
 
+DATE=$(date +"%Y%m%d_%H%M%S")
 NAME=""
 
 # backup 
 echo "backup /etc/apt/sources.list"
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.ynu_backup
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.$DATE
 
 # test release name
 echo "check release name"
@@ -22,6 +23,7 @@ else
 	exit 126
 fi
 
+echo "Your release is Ubuntu $NAME"
 
 # download sources.list
 echo "download sources.list"
