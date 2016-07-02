@@ -10,13 +10,13 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.$DATE
 # test release name
 echo "check release name"
 # is 14.04?
-if [ -n "$(uname -a | grep 12.04)" ]; then
+if [ -n "$(sudo lsb_release -r | grep 12.04)" ]; then
 	NAME="12.04"
-elif [ -n "$(uname -a | grep 14.04)" ]; then
+elif [ -n "$(sudo lsb_release -r | grep 14.04)" ]; then
 	NAME="14.04"
-elif [ -n "$(uname -a | grep 15.10)" ]; then
+elif [ -n "$(sudo lsb_release -r | grep 15.10)" ]; then
 	NAME="15.10"
-elif [ -n "$(uname -a | grep 16.04)" ]; then
+elif [ -n "$(sudo lsb_release -r | grep 16.04)" ]; then
 	NAME="16.04"
 else
 	echo "can not determine release name, exit"
