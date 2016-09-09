@@ -35,9 +35,21 @@ sudo -H pip install -vvv --upgrade pip
 
 ### osx
 
+1. 运行自动配置脚本
+
 ```bash
 curl -L https://git.io/vi4Yg | bash
 ```
+
+2. 重新启动Termi
+
+3. 检查配置
+
+```bash
+sudo -H pip install -vvv --upgrade pip
+```
+
+如果看到有 <code>pypi.opensource.ynu.edu.cn</code>， 说明配置已经生效了。
 
 ### windows
 1. 下载 [pypi_setup.zip](https://git.io/vi4Y6)
