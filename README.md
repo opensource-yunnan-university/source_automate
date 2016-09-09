@@ -10,9 +10,26 @@ curl -L https://git.io/vKvRR | bash
 
 ### Linux
 
+1. 运行自动配置脚本
+
 ```bash
 curl -L https://git.io/vi4Yu | bash
 ```
+
+2. 重新启动Terminal
+
+3. 检查配置
+
+```bash
+sudo -H pip install -vvv --upgrade pip
+```
+
+如果看到有 <code>pypi.opensource.ynu.edu.cn</code>， 说明配置已经生效了。
+
+如图 ![检查配置](https://raw.githubusercontent.com/opensource-yunnan-university/source_automate/master/pypi/linux/pypi_linux_test_success.png)
+
+
+
 
 ### osx
 
