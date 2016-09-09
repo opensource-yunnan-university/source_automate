@@ -52,7 +52,7 @@ sudo -H pip install -vvv --upgrade pip
 1. 运行自动配置脚本
 
 ```bash
-curl -L https://git.io/vi4Yg | bash
+curl -L https://git.io/vi43i | bash
 ```
 
 2. 重新启动Terminal
