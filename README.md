@@ -2,8 +2,28 @@
 
 ## 一、Ubuntu镜像自动配置方法
 
+1. 运行自动配置脚本
 ```bash
 curl -L https://git.io/vKvRR | bash
+```
+
+2. 更新
+
+更新
+```bash
+sudo apt-get update && sudo apt-get -y upgrade
+```
+
+清理
+```bash
+sudo apt-get -y autoremove
+sudo apt-get -y autoclean
+```
+
+安装新软件，比如安装Python开发环境
+```bash
+sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev vim git
+sudo apt-get install python2.7 python2.7-dev
 ```
 
 ## 二、PYPI镜像自动配置方法
@@ -72,15 +92,17 @@ sudo -H pip install -vvv --upgrade pip
 
 ### （五）使用PIP安装软件包
 
-比如我们要安装pygame
+比如我们要安装python开发所需的环境
 
 #### Linux 或者 OSX：
 
 ```bash
-sudo -H pip install pygame
+sudo -H pip install ipython
+sudo -H pip install virtualenv
 ```
 
 #### Windows:
 ```bash
-pip install pygame
+pip install ipython
+pip install virtualenv
 ```
