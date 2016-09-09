@@ -36,5 +36,6 @@ sudo cp ~/sources.list.ynu /etc/apt/sources.list
 echo "refresh cache"
 sudo apt-get update
 
-echo "Done"
+echo 'setup ok.'
+echo 'Welcome to opensource of Yunnan University.'
 
