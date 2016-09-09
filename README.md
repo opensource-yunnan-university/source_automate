@@ -1,6 +1,6 @@
 # 云南大学开源中心，镜像自动配置
 
-## 一、Ubuntu镜像自动配置方法
+## 一、云南大学开源中心Ubuntu镜像自动配置方法
 
 ### 1. 运行自动配置脚本
 ```bash
@@ -26,7 +26,7 @@ sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2
 sudo apt-get install python2.7 python2.7-dev
 ```
 
-## 二、PYPI镜像自动配置方法
+## 二、云南大学开源中心PYPI镜像自动配置方法
 
 [PyPI](https://pypi.python.org/pypi)，Python包索引（以前被称为“Cheeseshop”）是一个公开可用的Python包中央数据库。
 
@@ -43,7 +43,9 @@ Windows、Linux、OSX，均适用此方法
 python get-pip.py
 ```
 
-### （二）Linux
+### （二）在Linux中配置云南大学开源中心PYPI镜像
+
+注意：在配置之前请先安装PIP
 
 #### 1. 运行自动配置脚本
 ```bash
@@ -66,7 +68,9 @@ sudo -H pip install -vvv --upgrade pip
 
 
 
-### （三）OSX
+### （三）在OSX中配置云南大学开源中心PYPI镜像
+
+注意：在配置之前请先安装PIP
 
 #### 1. 运行自动配置脚本
 ```bash
@@ -82,7 +86,9 @@ sudo -H pip install -vvv --upgrade pip
 
 如果看到有 <code>pypi.opensource.ynu.edu.cn</code>， 说明配置已经生效了。
 
-### （四）Windows
+### （四）在Windows中配置云南大学开源中心PYPI镜像
+
+注意：在配置之前请先安装PIP
 
 #### 1. 下载 [pypi_setup.zip](https://git.io/vi4Y6)
 
