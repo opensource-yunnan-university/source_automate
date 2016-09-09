@@ -8,4 +8,5 @@ cd ~
 home=$(pwd)
 sudo ln -s $home/.pip /root/.pip
 
-sudo -H pip install -vvv --upgrade pip
+echo 'setup ok.'
+echo 'Welcome to opensource of Yunnan University.'
