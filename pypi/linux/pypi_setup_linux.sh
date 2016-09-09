@@ -8,4 +8,5 @@ cd ~
 home=$(pwd)
 sudo ln -s $home/.pip /root/.pip
 
-echo 'welcome to opensource of Yunnan University.'
+echo 'setup ok.'
+echo 'Welcome to opensource of Yunnan University.'
