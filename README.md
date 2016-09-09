@@ -2,25 +2,25 @@
 
 ## 一、Ubuntu镜像自动配置方法
 
-1. 运行自动配置脚本
+### 1. 运行自动配置脚本
 ```bash
 curl -L https://git.io/vKvRR | bash
 ```
 
-2. 更新
+### 2. 更新
 
-更新
+#### 更新
 ```bash
 sudo apt-get update && sudo apt-get -y upgrade
 ```
 
-清理
+#### 清理
 ```bash
 sudo apt-get -y autoremove
 sudo apt-get -y autoclean
 ```
 
-安装新软件，比如安装Python开发环境
+#### 安装新软件，比如安装Python开发环境
 ```bash
 sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev vim git
 sudo apt-get install python2.7 python2.7-dev
@@ -36,24 +36,23 @@ sudo apt-get install python2.7 python2.7-dev
 
 Windows、Linux、OSX，均适用此方法
 
-1. 下载 [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
-2. 在命令行中运行
+#### 1. 下载 [get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+
+#### 2. 在命令行中运行
 ```bash
 python get-pip.py
 ```
 
 ### （二）Linux
 
-1. 运行自动配置脚本
-
+#### 1. 运行自动配置脚本
 ```bash
 curl -L https://git.io/vi4Yu | bash
 ```
 
-2. 重新启动Terminal
+#### 2. 重新启动Terminal
 
-3. 检查配置
-
+#### 3. 检查配置
 ```bash
 sudo -H pip install -vvv --upgrade pip
 ```
@@ -69,16 +68,14 @@ sudo -H pip install -vvv --upgrade pip
 
 ### （三）OSX
 
-1. 运行自动配置脚本
-
+#### 1. 运行自动配置脚本
 ```bash
 curl -L https://git.io/vi43i | bash
 ```
 
-2. 重新启动Terminal
+#### 2. 重新启动Terminal
 
-3. 检查配置
-
+#### 3. 检查配置
 ```bash
 sudo -H pip install -vvv --upgrade pip
 ```
@@ -86,16 +83,18 @@ sudo -H pip install -vvv --upgrade pip
 如果看到有 <code>pypi.opensource.ynu.edu.cn</code>， 说明配置已经生效了。
 
 ### （四）Windows
-1. 下载 [pypi_setup.zip](https://git.io/vi4Y6)
-2. 解压缩
-3. 运行 <code>pypi_setup/setup.bat</code>
+
+#### 1. 下载 [pypi_setup.zip](https://git.io/vi4Y6)
+
+#### 2. 解压缩
+
+#### 3. 运行 <code>pypi_setup/setup.bat</code>
 
 ### （五）使用PIP安装软件包
 
 比如我们要安装python开发所需的环境
 
 #### Linux 或者 OSX：
-
 ```bash
 sudo -H pip install ipython
 sudo -H pip install virtualenv
