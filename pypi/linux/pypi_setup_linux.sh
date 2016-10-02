@@ -8,7 +8,7 @@ sudo su
 if [ -e /root/.pip ]
 then
   mv /root/.pip /root/.pip.bak
-  echo 'your /root/.pip has been backuped to /root/.pip.bak
+  echo 'your /root/.pip has been backuped to /root/.pip.bak'
 fi
 exit
 
