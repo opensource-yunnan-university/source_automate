@@ -4,7 +4,7 @@
 
 ### 1. 运行自动配置脚本
 ```bash
-curl -L https://git.io/vKvRR | bash
+sudo curl -L https://git.io/vKvRR | bash
 ```
 
 ### 2. 更新
