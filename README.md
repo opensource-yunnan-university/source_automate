@@ -1,10 +1,13 @@
 # 云南大学开源中心，镜像自动配置
 
+-----------
+
 ## 一、云南大学开源中心Ubuntu镜像自动配置方法
 
 ### 1. 运行自动配置脚本
+
 ```bash
-sudo curl -L https://git.io/vKvRR | bash
+curl -L https://git.io/vKvRR | sudo bash
 ```
 
 ### 2. 更新
@@ -25,6 +28,8 @@ sudo apt-get -y autoclean
 sudo apt-get install build-essential libssl-dev libevent-dev libjpeg-dev libxml2-dev libxslt-dev vim git
 sudo apt-get install python2.7 python2.7-dev
 ```
+
+-----------
 
 ## 二、云南大学开源中心PYPI镜像自动配置方法
 
