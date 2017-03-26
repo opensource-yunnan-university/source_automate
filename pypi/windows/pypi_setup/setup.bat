@@ -1,3 +1,5 @@
+echo off
+
 echo "setting pipy mirror..."
 
 robocopy ./pip %HOMEPATH%/pip /e
