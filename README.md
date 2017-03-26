@@ -4,7 +4,7 @@
 
 -----------
 
-## 一、云大开源中心Ubuntu镜像自动配置方法
+## 一、云大开源Ubuntu镜像自动配置方法
 
 ### 1. 运行自动配置脚本
 
@@ -33,7 +33,7 @@ sudo apt-get install python2.7 python2.7-dev
 
 -----------
 
-## 二、云大开源中心PYPI镜像自动配置方法
+## 二、云大开源PYPI镜像自动配置方法
 
 [PyPI](https://pypi.python.org/pypi)，Python包索引（以前被称为“Cheeseshop”）是一个公开可用的Python包中央数据库。
 
@@ -50,7 +50,7 @@ Windows、Linux、OSX，均适用此方法
 python get-pip.py
 ```
 
-### （二）在Linux中配置云大开源中心PYPI镜像
+### （二）在Linux中配置云大开源PYPI镜像
 
 注意：在配置之前请先安装PIP
 
@@ -75,7 +75,7 @@ sudo -H pip install -vvv --upgrade pip
 
 
 
-### （三）在OSX中配置云大开源中心PYPI镜像
+### （三）在OSX中配置云大开源PYPI镜像
 
 注意：在配置之前请先安装PIP
 
@@ -93,7 +93,7 @@ sudo -H pip install -vvv --upgrade pip
 
 如果看到有 <code>pypi.opensource.ynu.edu.cn</code>， 说明配置已经生效了。
 
-### （四）在Windows中配置云大开源中心PYPI镜像
+### （四）在Windows中配置云大开源PYPI镜像
 
 注意：在配置之前请先安装PIP
 
