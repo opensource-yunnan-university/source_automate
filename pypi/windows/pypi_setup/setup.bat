@@ -1,13 +1,14 @@
 echo off
 
-echo "setting pipy mirror..."
+echo setting pipy mirror...
 
 robocopy ./pip %HOMEPATH%/pip /e
 
-echo "ok."
+echo ok.
 
-echo "=================="
-echo "welcome to ynuosa"
-echo "=================="
+echo 
+echo ==================
+echo welcome to ynuosa
+echo ==================
 pause
 
