@@ -1,4 +1,4 @@
-deb http://mirrors.ynuosa.org/ubuntu/sty main restricted universe multiverse
+deb http://mirrors.ynuosa.org/ubuntu/ trusty main restricted universe multiverse
 deb http://mirrors.ynuosa.org/ubuntu/ trusty-security main restricted universe multiverse
 deb http://mirrors.ynuosa.org/ubuntu/ trusty-updates main restricted universe multiverse
 deb http://mirrors.ynuosa.org/ubuntu/ trusty-backports main restricted universe multiverse
