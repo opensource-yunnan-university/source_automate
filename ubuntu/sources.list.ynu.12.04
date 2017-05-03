@@ -2,7 +2,7 @@ deb http://mirrors.ynuosa.org/ubuntu/ precise main restricted universe multivers
 deb http://mirrors.ynuosa.org/ubuntu/ precise-security main restricted universe multiverse
 deb http://mirrors.ynuosa.org/ubuntu/ precise-updates main restricted universe multiverse
 deb http://mirrors.ynuosa.org/ubuntu/ precise-backports main restricted universe multiverse
-deb hhttp://mirrors.ynuosa.org/ubuntu/ precise-proposed main restricted universe multiverse
+deb http://mirrors.ynuosa.org/ubuntu/ precise-proposed main restricted universe multiverse
 deb-src http://mirrors.ynuosa.org/ubuntu/ precise main restricted universe multiverse
 deb-src http://mirrors.ynuosa.org/ubuntu/ precise-security main restricted universe multiverse
 deb-src http://mirrors.ynuosa.org/ubuntu/ precise-updates main restricted universe multiverse
